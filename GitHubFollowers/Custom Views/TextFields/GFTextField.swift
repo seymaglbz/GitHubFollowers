@@ -26,8 +26,8 @@ class GFTextField: UITextField {
         layer.borderWidth = 2
         layer.borderColor = UIColor.systemGray4.cgColor
         
-        textColor = .label // .label is black on light mode, white on dark mode
-        tintColor = .label //the color of the blinking curser
+        textColor = .label 
+        tintColor = .label
         textAlignment = .center
         font = UIFont.preferredFont(forTextStyle: .title2)
         adjustsFontSizeToFitWidth = true
@@ -35,8 +35,8 @@ class GFTextField: UITextField {
         
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
-        returnKeyType = .go 
+        returnKeyType = .go
+        clearButtonMode = .whileEditing
         placeholder = "Enter a username"
-        
     }
 }
